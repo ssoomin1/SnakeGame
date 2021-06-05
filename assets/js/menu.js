@@ -6,7 +6,7 @@ var Menu={
 
   create:function(){
     //이미지를 표시한다.
-    this.add.sprite(0,0,'menu');
+    this.add.button(0,0,'menu',this.startGame,this);
   },
 
   startGame:function(){
